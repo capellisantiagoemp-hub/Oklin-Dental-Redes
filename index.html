@@ -1,0 +1,456 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Social media proposal for Oklin Dental</title>
+<meta name="description" content="A sample of how the Oklin Dental Instagram could look, prepared for Dr. Oklin.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#0078C0">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230078C0'/%3E%3Ctext x='32' y='44' font-family='Arial,sans-serif' font-size='36' font-weight='700' text-anchor='middle' fill='white'%3EO%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+<script>document.documentElement.classList.add('js')</script>
+<style>
+:root{
+  --blue:#0078C0; --blue-d:#005F99; --navy:#0A2F4D; --navy-2:#06223A;
+  --green:#90CC3C; --green-d:#5E8F14;
+  --sky:#F3F9FD; --sky-2:#E3F0FA; --paper:#fff;
+  --ink:#10283A; --ink-2:#3C5468; --ink-3:#586E80;
+  --line:rgba(10,47,77,.12);
+  --display:"Outfit","Nunito Sans",system-ui,sans-serif;
+  --sans:"Nunito Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --ease:cubic-bezier(.23,1,.32,1);
+  --gutter:clamp(16px,4vw,48px);
+  --r:22px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:84px;-webkit-text-size-adjust:100%}
+body{font:400 17px/1.6 var(--sans);color:var(--ink);background:var(--sky);-webkit-font-smoothing:antialiased;overflow-x:clip}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+button{font:inherit;color:inherit;cursor:pointer;border:0;background:none}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;letter-spacing:-.02em;line-height:1.08}
+p{text-wrap:pretty}
+:focus-visible{outline:3px solid var(--blue);outline-offset:3px;border-radius:8px}
+.wrap{width:min(1200px,100% - var(--gutter)*2);margin-inline:auto}
+
+/* header */
+.top{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.9);backdrop-filter:blur(16px) saturate(160%);-webkit-backdrop-filter:blur(16px) saturate(160%);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;height:72px}
+.brand img{height:58px;width:auto;object-fit:contain}
+.steps{display:flex;gap:2px}
+.steps a{display:flex;align-items:center;gap:6px;min-height:44px;padding:0 12px;border-radius:99px;font:600 14px var(--display);text-decoration:none;color:var(--ink-2);transition:background .2s,color .2s}
+.steps a b{color:var(--blue);font-weight:700}
+.steps a.on{background:var(--sky-2);color:var(--blue-d)}
+@media(hover:hover){.steps a:hover{background:var(--sky-2);color:var(--blue-d)}}
+@media(max-width:560px){.steps a span{display:none}.steps a{padding:0 14px}}
+
+/* hero */
+.hero{position:relative;overflow:hidden;padding:clamp(44px,8vw,96px) 0 clamp(48px,7vw,84px);background:linear-gradient(170deg,#fff 0%,var(--sky-2) 70%,#D3E9F7 100%)}
+.hero::before,.hero::after{content:"";position:absolute;border-radius:50%;filter:blur(70px);pointer-events:none}
+.hero::before{width:480px;height:480px;background:rgba(0,120,192,.22);top:-160px;right:-120px}
+.hero::after{width:360px;height:360px;background:rgba(144,204,60,.3);bottom:-140px;left:-100px}
+.hero-grid{position:relative;display:grid;gap:3rem;align-items:center}
+.eyebrow{display:inline-flex;align-items:center;gap:10px;font:700 13px var(--display);letter-spacing:.16em;text-transform:uppercase;color:var(--blue-d)}
+.eyebrow::before{content:"";width:28px;height:2px;background:var(--green)}
+.hero h1{font-weight:800;font-size:clamp(2.5rem,7vw,4.6rem);line-height:1.03;margin:1.1rem 0;max-width:14ch}
+.hero h1 em{font-style:normal;color:var(--blue)}
+.hero .lead{font-size:clamp(1.05rem,2vw,1.22rem);color:var(--ink-2);max-width:34rem}
+.for{margin-top:1.6rem;display:flex;flex-wrap:wrap;gap:.3rem 1.4rem;color:var(--ink-2)}
+.for b{color:var(--ink);font-weight:700}
+.path{margin-top:2.2rem;display:grid;gap:.7rem;max-width:640px}
+.path a{display:flex;align-items:center;gap:1rem;min-height:60px;padding:.8rem 1.1rem;border-radius:18px;background:#fff;border:1px solid var(--line);text-decoration:none;box-shadow:0 14px 30px -24px rgba(10,47,77,.5);transition:transform .25s var(--ease),border-color .25s,box-shadow .25s}
+.path small{font:800 15px var(--display);color:var(--blue);min-width:1.6rem}
+.path span{font:600 16px var(--display)}
+.path a:active{transform:scale(.98)}
+@media(hover:hover) and (pointer:fine){.path a:hover{transform:translateY(-3px);border-color:var(--blue);box-shadow:0 20px 36px -22px rgba(0,120,192,.6)}}
+@media(min-width:760px){.path{grid-template-columns:repeat(3,1fr);max-width:none}.path a{flex-direction:column;align-items:flex-start;gap:.3rem;min-height:0}}
+.fan{position:relative;height:clamp(330px,88vw,470px);width:min(430px,100%);margin-inline:auto}
+.fan button{position:absolute;width:56%;border-radius:20px;overflow:hidden;border:6px solid #fff;box-shadow:0 36px 60px -28px rgba(10,47,77,.7);background:#fff;transition:transform .5s var(--ease);cursor:zoom-in;padding:0}
+.fan img{width:100%;aspect-ratio:4/5;object-fit:cover}
+.fan .f1{left:2%;top:14%;transform:rotate(-8deg)}
+.fan .f2{right:0;top:0;transform:rotate(7deg);z-index:2}
+.fan .f3{left:22%;bottom:0;transform:rotate(-2deg);z-index:3}
+@media(hover:hover) and (pointer:fine){.fan button:hover{transform:rotate(0) translateY(-8px) scale(1.03);z-index:5}}
+@media(min-width:900px){.hero-grid{grid-template-columns:1.1fr .9fr;gap:4rem}.fan{height:520px}}
+
+/* sections */
+section.blk{padding:clamp(60px,9vw,112px) 0;position:relative}
+#hoy{background:#fff}
+#propuesta{background:linear-gradient(180deg,var(--sky-2) 0%,var(--sky) 100%)}
+#material{background:#fff}
+.sec-head{display:flex;gap:clamp(14px,3vw,32px);align-items:flex-start;margin-bottom:clamp(28px,5vw,52px)}
+.num{font:800 clamp(52px,8vw,92px)/.85 var(--display);color:transparent;-webkit-text-stroke:2px var(--blue);opacity:.9}
+.sec-head h2{font-weight:800;font-size:clamp(1.9rem,4.6vw,3.1rem)}
+.sec-head p{margin-top:.8rem;color:var(--ink-2);max-width:56ch;font-size:clamp(1rem,1.6vw,1.12rem)}
+@media(max-width:700px){.sec-head{flex-direction:column;gap:.6rem}}
+
+/* 01 hoy */
+.stats{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-bottom:28px}
+.stat{padding:1.2rem 1.3rem;border-radius:var(--r);background:var(--sky);border:1px solid var(--line)}
+.stat b{display:block;font:800 clamp(2rem,4.6vw,3rem)/1 var(--display);color:var(--blue)}
+.stat>span{display:block;margin-top:.45rem;font-size:15px;color:var(--ink-2);line-height:1.35}
+@media(min-width:900px){.stats{grid-template-columns:repeat(4,1fr)}}
+.now{display:grid;gap:clamp(14px,2vw,24px)}
+@media(min-width:760px){.now{grid-template-columns:repeat(3,1fr)}}
+.shot{border-radius:var(--r);border:1px solid var(--line);background:var(--sky);overflow:hidden;display:flex;flex-direction:column;transition:transform .4s var(--ease),box-shadow .4s var(--ease)}
+@media(hover:hover) and (pointer:fine){.shot:hover{transform:translateY(-5px);box-shadow:0 28px 50px -30px rgba(10,47,77,.6)}}
+.shot .win{position:relative;aspect-ratio:527/608;background:#fff;overflow:hidden;cursor:zoom-in;padding:0;display:block;width:100%}
+.shot .win img{width:100%;height:100%;object-fit:cover}
+.shot figcaption{padding:1rem 1.2rem 1.3rem;display:grid;gap:.25rem}
+.shot figcaption b{font:700 14px var(--display);letter-spacing:.08em;text-transform:uppercase;color:var(--blue-d)}
+.shot figcaption span{font-size:16px;color:var(--ink);font-weight:600;line-height:1.35}
+.shot figcaption small{font-size:14.5px;color:var(--ink-3);line-height:1.4}
+.gcard{background:linear-gradient(150deg,var(--blue) 0%,var(--navy) 100%);color:#fff;border-color:transparent;justify-content:space-between}
+.gcard .in{padding:1.8rem 1.5rem;display:flex;flex-direction:column;justify-content:center;gap:1.1rem;flex:1}
+.gcard .score{font:800 4.6rem/.9 var(--display);letter-spacing:-.04em}
+.stars{display:inline-flex;gap:3px;color:#F6C23E}
+.stars svg{width:20px;height:20px}
+.gcard blockquote{font:500 1.22rem/1.5 var(--sans);color:#EAF5FC;quotes:"\201C" "\201D"}
+.gcard blockquote::before{content:open-quote}.gcard blockquote::after{content:close-quote}
+.gcard cite{font-style:normal;font-size:15px;color:#BFD9EA}
+.gcard figcaption b{color:var(--green)}
+.gcard figcaption span{color:#fff}
+.gcard figcaption small{color:#BFD9EA}
+
+/* 02 propuesta */
+.stage{display:grid;gap:clamp(24px,4vw,56px);align-items:center}
+.phone-col{position:relative;width:min(380px,100%);margin-inline:auto}
+.phone{position:relative;border-radius:clamp(44px,12vw,58px);padding:clamp(9px,2.6vw,12px);background:linear-gradient(145deg,#1d3a55,#06223A 65%);box-shadow:0 0 0 1.5px rgba(10,47,77,.25),0 50px 90px -34px rgba(10,47,77,.75);cursor:zoom-in;-webkit-tap-highlight-color:transparent;transition:transform .5s var(--ease)}
+.phone .screen{border-radius:clamp(34px,9.6vw,47px);overflow:hidden;background:#fff}
+.phone .screen img{width:100%;height:auto}
+.phone .zoom{position:absolute;right:18px;bottom:18px;display:flex;align-items:center;gap:7px;padding:9px 14px;border-radius:99px;background:rgba(6,34,58,.86);color:#fff;font:700 13px var(--display);backdrop-filter:blur(8px)}
+.halo{position:absolute;inset:6% 0;background:radial-gradient(closest-side,rgba(0,120,192,.3),transparent);filter:blur(34px);z-index:-1}
+.notes{display:grid;gap:1.4rem}
+.note{border-left:3px solid var(--green);padding:.1rem 0 .1rem 1rem}
+.note h3{font-size:1.1rem;font-weight:700;margin-bottom:.3rem}
+.note p{font-size:15.5px;color:var(--ink-2);line-height:1.5}
+@media(min-width:1000px){.stage{grid-template-columns:1fr 380px 1fr}.notes.l .note{max-width:320px;margin-left:auto}.notes.r .note{max-width:320px}}
+@media(max-width:999px){.phone-col{order:-1}.notes{grid-template-columns:1fr}}
+@media(min-width:620px) and (max-width:999px){.notes{grid-template-columns:repeat(3,1fr);gap:1rem}}
+
+.posts-head{margin:clamp(52px,8vw,92px) 0 1.2rem;display:flex;justify-content:space-between;align-items:flex-end;gap:12px;flex-wrap:wrap}
+.posts-head h3{font-weight:800;font-size:clamp(1.5rem,3.2vw,2.1rem)}
+.posts-head p{font-size:15px;color:var(--ink-3)}
+.railwrap{position:relative}
+.rail{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;padding:6px var(--gutter) 20px;margin:0 calc(var(--gutter)*-1);scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.rail::-webkit-scrollbar{display:none}
+.post{flex:0 0 clamp(230px,64vw,310px);scroll-snap-align:start;border-radius:20px;overflow:hidden;border:5px solid #fff;background:#fff;box-shadow:0 26px 44px -30px rgba(10,47,77,.7);cursor:zoom-in;padding:0;transition:transform .4s var(--ease),box-shadow .4s var(--ease)}
+.post img{width:100%;aspect-ratio:4/5;object-fit:cover}
+@media(hover:hover) and (pointer:fine){.post:hover{transform:translateY(-6px);box-shadow:0 34px 54px -28px rgba(0,120,192,.7)}}
+.ctl{display:flex;align-items:center;gap:.6rem;margin-top:.4rem}
+.arr{width:48px;height:48px;border-radius:50%;background:#fff;border:1.5px solid var(--line);display:grid;place-items:center;transition:transform .2s var(--ease),background .2s,color .2s}
+.arr svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.arr:active{transform:scale(.94)}
+@media(hover:hover) and (pointer:fine){.arr:hover{background:var(--blue);color:#fff}}
+.dots{display:flex;gap:.4rem;margin-left:.5rem}
+.dots i{width:8px;height:8px;border-radius:99px;background:rgba(10,47,77,.18);transition:width .3s var(--ease),background .3s}
+.dots i.on{width:26px;background:var(--blue)}
+
+/* 03 material */
+.mat{display:grid;gap:clamp(14px,2vw,24px)}
+.ph{margin:0;position:relative;border-radius:var(--r);overflow:hidden;border:1px solid var(--line);background:var(--sky);cursor:zoom-in;padding:0;display:block;width:100%;text-align:left;transition:transform .4s var(--ease),box-shadow .4s var(--ease)}
+.ph img{width:100%;height:100%;object-fit:cover}
+.ph figcaption{position:absolute;left:12px;bottom:12px;padding:7px 14px;border-radius:99px;background:rgba(255,255,255,.92);font:700 14px var(--display);color:var(--ink);backdrop-filter:blur(8px)}
+@media(hover:hover) and (pointer:fine){.ph:hover{transform:translateY(-5px);box-shadow:0 28px 50px -30px rgba(10,47,77,.6)}}
+.ph.doc{aspect-ratio:3/4;max-width:340px;margin-inline:auto}
+.ph.room{aspect-ratio:4/3}
+.ph.rx{aspect-ratio:3/4;max-width:420px;margin-inline:auto}
+.ph.rx img{object-position:60% 78%}
+@media(min-width:900px){
+  .mat{grid-template-columns:.8fr 1.5fr .9fr;align-items:stretch}
+  .ph.doc,.ph.rx{max-width:none;aspect-ratio:auto;min-height:420px}
+  .ph.room{aspect-ratio:auto;min-height:420px}
+}
+
+/* cierre */
+.close{background:var(--navy);padding:clamp(60px,9vw,112px) 0 40px}
+.card{position:relative;overflow:hidden;border-radius:clamp(26px,4vw,40px);padding:clamp(28px,6vw,72px);background:radial-gradient(700px 420px at 95% 0%,rgba(144,204,60,.28),transparent 60%),linear-gradient(145deg,var(--blue) 0%,var(--blue-d) 55%,var(--navy-2) 130%);color:#fff}
+.card h2{font-weight:800;font-size:clamp(1.9rem,5vw,3.4rem);max-width:20ch}
+.card h2 em{font-style:normal;color:var(--green)}
+.card .lead{margin-top:1.1rem;color:#DDEEFA;max-width:56ch;font-size:clamp(1rem,1.7vw,1.15rem)}
+.svc{margin-top:2rem;display:grid;gap:12px}
+@media(min-width:900px){.svc{grid-template-columns:repeat(3,1fr)}}
+.svc div{padding:1.3rem;border-radius:18px;background:rgba(6,34,58,.45);border:1px solid rgba(255,255,255,.18);font-size:16px;line-height:1.5;color:#E3F0FA;transition:transform .3s var(--ease),border-color .3s}
+@media(hover:hover) and (pointer:fine){.svc div:hover{transform:translateY(-4px);border-color:var(--green)}}
+.svc b{display:block;font:700 18px var(--display);color:#fff;margin-bottom:.3rem}
+.svc svg{width:28px;height:28px;stroke:var(--green);fill:none;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;margin-bottom:.8rem}
+.sign{margin-top:2.2rem;padding-top:1.6rem;border-top:1px solid rgba(255,255,255,.2);display:grid;gap:1.2rem}
+.sign p{color:#DDEEFA}
+.sign b{display:block;color:#fff;font:700 19px var(--display)}
+.contact{list-style:none;display:flex;flex-wrap:wrap;gap:10px}
+.contact a{display:inline-flex;align-items:center;gap:10px;min-height:50px;padding:.7rem 1.3rem;border-radius:99px;background:var(--green);color:var(--navy);font:700 16px var(--display);text-decoration:none;overflow-wrap:anywhere;transition:transform .2s var(--ease),box-shadow .25s var(--ease)}
+.contact a.alt{background:rgba(255,255,255,.12);color:#fff;border:1.5px solid rgba(255,255,255,.5)}
+.contact a:active{transform:scale(.97)}
+@media(hover:hover) and (pointer:fine){.contact a:hover{transform:translateY(-2px);box-shadow:0 16px 30px -14px rgba(144,204,60,.9)}.contact a.alt:hover{background:#fff;color:var(--navy)}}
+.contact svg{width:20px;height:20px;flex:none;stroke:currentColor;fill:none;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+footer.f{padding:26px 0 40px;color:#A9C4D8;font-size:14px;display:flex;flex-wrap:wrap;gap:6px 24px;justify-content:space-between}
+
+/* lightbox */
+dialog{border:0;background:transparent;max-width:none;max-height:none;width:100%;height:100%;color:#fff}
+dialog::backdrop{background:rgba(4,18,32,.92);backdrop-filter:blur(6px)}
+dialog .box{height:100%;overflow:auto;display:flex;justify-content:center;padding:70px 12px 28px;-webkit-overflow-scrolling:touch}
+dialog img{width:min(560px,100%);height:auto;border-radius:18px;align-self:flex-start;background:#fff}
+dialog button{position:fixed;top:14px;right:14px;z-index:2;width:48px;height:48px;border-radius:50%;background:#fff;color:var(--navy);font-size:24px;line-height:1;box-shadow:0 10px 24px -8px rgba(0,0,0,.5)}
+
+/* reveal */
+.js .rv{opacity:0;transform:translateY(24px);transition:opacity .7s var(--ease),transform .7s var(--ease);transition-delay:var(--d,0s)}
+.js .rv.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .js .rv{opacity:1;transform:none;transition:none}
+  *{transition-duration:.01ms!important}
+}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#inicio" aria-label="Oklin Dental, top of page"><img src="img/logo.webp" alt="Oklin Dental, Family &amp; Cosmetic Dentistry" width="117" height="58"></a>
+    <nav class="steps" aria-label="Sections">
+      <a href="#hoy"><b>01</b><span>Today</span></a>
+      <a href="#propuesta"><b>02</b><span>Proposal</span></a>
+      <a href="#material"><b>03</b><span>Material</span></a>
+    </nav>
+  </div>
+</header>
+
+<main id="inicio">
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <div class="eyebrow rv">Social media proposal</div>
+        <h1 class="rv" style="--d:.08s">Social media that matches <em>your practice</em>.</h1>
+        <p class="lead rv" style="--d:.16s">A sample of how the Oklin Dental Instagram could look, built with your logo, your colors and the real photos of your office.</p>
+        <div class="for rv" style="--d:.24s"><span>Prepared for <b>Dr. Oklin</b></span><span>Pembroke Pines, FL</span></div>
+        <div class="path rv" style="--d:.32s">
+          <a href="#hoy"><small>01</small><span>How it looks today</span></a>
+          <a href="#propuesta"><small>02</small><span>How it could look</span></a>
+          <a href="#material"><small>03</small><span>Material we already have</span></a>
+        </div>
+      </div>
+      <div class="fan rv" style="--d:.2s" aria-label="Three of the proposed posts">
+        <button class="f1" data-zoom="img/post1.webp" data-alt="Proposed post: Wisdom teeth bothering you? Book your visit today!"><img src="img/post1.webp" alt="Proposed post: Wisdom teeth bothering you?" width="1080" height="1350"></button>
+        <button class="f2" data-zoom="img/post2.webp" data-alt="Proposed post: Your smile shines. 4.7 on Google, 147 reviews"><img src="img/post2.webp" alt="Proposed post: Your smile shines" width="1080" height="1350"></button>
+        <button class="f3" data-zoom="img/post4.webp" data-alt="Proposed post: Caring for the smiles of your family"><img src="img/post4.webp" alt="Proposed post: Caring for the smiles of your family" width="1080" height="1350"></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- 01 TODAY -->
+  <section class="blk" id="hoy">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <div class="num" aria-hidden="true">01</div>
+        <div>
+          <h2>A solid starting point</h2>
+          <p>Your patients already rate you 4.7 stars on Google. Here is your Instagram as it looks today.</p>
+        </div>
+      </div>
+
+      <div class="stats">
+        <div class="stat rv"><b><span data-count-to="75">75</span></b><span>Instagram followers</span></div>
+        <div class="stat rv" style="--d:.06s"><b><span data-count-to="34">34</span></b><span>Instagram posts</span></div>
+        <div class="stat rv" style="--d:.12s"><b>Oct 2023</b><span>Date of the last Instagram post</span></div>
+        <div class="stat rv" style="--d:.18s"><b><span data-count-to="4.7" data-decimals="1">4.7</span></b><span>Google rating, from 147 reviews</span></div>
+      </div>
+
+      <div class="now">
+        <figure class="shot rv">
+          <button class="win" data-zoom="img/hoy-ig-perfil.webp" data-alt="Instagram profile of @oklindental today: 34 posts, 75 followers, 138 following"><img src="img/hoy-ig-perfil.webp" alt="Screenshot of the Instagram profile @oklindental: 34 posts, 75 followers, 138 following" width="527" height="608" loading="lazy"></button>
+          <figcaption><b>Instagram, profile</b><span>34 posts and 75 followers</span><small>The profile photo is a portrait, not your logo, and there are no highlights yet</small></figcaption>
+        </figure>
+        <figure class="shot rv" style="--d:.1s">
+          <button class="win" data-zoom="img/hoy-ig-grilla.webp" data-alt="Instagram post grid of @oklindental today"><img src="img/hoy-ig-grilla.webp" alt="Screenshot of the Instagram post grid: holiday decorations, a smile close-up and a photo of the team" width="527" height="608" loading="lazy"></button>
+          <figcaption><b>Instagram, posts</b><span>Last post: October 5, 2023</span><small>Holidays and snapshots, without one shared visual style</small></figcaption>
+        </figure>
+        <figure class="shot gcard rv" style="--d:.2s">
+          <div class="in">
+            <div class="score">4.7</div>
+            <div class="stars" aria-label="4.7 out of 5 stars"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 6.900 7.500.7-5.600 5 1.700 7.400L12 18l-6.600 4 1.700-7.400-5.600-5L9 8.900z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 6.900 7.500.7-5.600 5 1.700 7.400L12 18l-6.600 4 1.700-7.400-5.600-5L9 8.900z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 6.900 7.500.7-5.600 5 1.700 7.400L12 18l-6.600 4 1.700-7.400-5.600-5L9 8.900z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 6.900 7.500.7-5.600 5 1.700 7.400L12 18l-6.600 4 1.700-7.400-5.600-5L9 8.900z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 6.900 7.500.7-5.600 5 1.700 7.400L12 18l-6.600 4 1.700-7.400-5.600-5L9 8.900z"/></svg></div>
+            <blockquote>I have been a patient of Dr. Oklin for many years. He is great at what he does. Great staff, great customer service.</blockquote>
+            <cite>Samantha S., Google review</cite>
+          </div>
+          <figcaption><b>Google</b><span>147 reviews</span><small>What patients say is already your best content</small></figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- 02 PROPOSAL -->
+  <section class="blk" id="propuesta">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <div class="num" aria-hidden="true">02</div>
+        <div>
+          <h2>How @oklindental could look</h2>
+          <p>Your logo as the profile photo, highlights by topic and a grid with its own design, in your brand colors.</p>
+        </div>
+      </div>
+
+      <div class="stage">
+        <div class="notes l">
+          <div class="note rv"><h3>A profile with your brand</h3><p>Your logo as the profile photo, with phone, location and a contact button in view.</p></div>
+          <div class="note rv" style="--d:.1s"><h3>Highlights by topic</h3><p>Smiles, Reviews, Services, FAQ and Contact, so patients find what they need.</p></div>
+          <div class="note rv" style="--d:.2s"><h3>A consistent grid</h3><p>Every post in the same style, blue and green, recognizable at a glance.</p></div>
+        </div>
+
+        <div class="phone-col rv" style="--d:.1s">
+          <div class="halo" aria-hidden="true"></div>
+          <div class="phone" id="phone" role="button" tabindex="0" aria-label="Enlarge the proposed feed" data-zoom="img/feed.webp" data-alt="Proposed Instagram feed for Oklin Dental, full screen">
+            <div class="screen"><img src="img/feed.webp" alt="Proposed Instagram feed: profile with the Oklin Dental logo, highlights named Smiles, Reviews, Services, FAQ and Contact, and a grid of designed posts" width="1080" height="2231" loading="lazy"></div>
+            <div class="zoom" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.300-4.300M11 8v6M8 11h6"/></svg>Tap to enlarge</div>
+          </div>
+        </div>
+
+        <div class="notes r">
+          <div class="note rv"><h3>Content that makes sense</h3><p>Short, clear messages about treatments and dental care, each with a call to book.</p></div>
+          <div class="note rv" style="--d:.1s"><h3>Reels and real photos</h3><p>Short videos plus photos of your team and your office, to show who you are.</p></div>
+          <div class="note rv" style="--d:.2s"><h3>A steady monthly rhythm</h3><p>New posts every month, so your profile stays active and up to date.</p></div>
+        </div>
+      </div>
+
+      <div class="posts-head rv">
+        <div><h3>Six examples, up close</h3></div>
+        <p>Swipe to see more, tap to enlarge</p>
+      </div>
+      <div class="railwrap rv">
+        <div class="rail" id="rail" tabindex="0" aria-label="Proposed posts, scroll sideways">
+          <button class="post" data-zoom="img/post1.webp" data-alt="Proposed post 1"><img src="img/post1.webp" alt="Proposed post 1: Wisdom teeth bothering you? Book your visit today!" width="1080" height="1350" loading="lazy"></button>
+          <button class="post" data-zoom="img/post2.webp" data-alt="Proposed post 2"><img src="img/post2.webp" alt="Proposed post 2: Your smile shines. 4.7 on Google, 147 reviews" width="1080" height="1350" loading="lazy"></button>
+          <button class="post" data-zoom="img/post3.webp" data-alt="Proposed post 3"><img src="img/post3.webp" alt="Proposed post 3: Oral surgery questions? Ask our team at Oklin Dental" width="1080" height="1350" loading="lazy"></button>
+          <button class="post" data-zoom="img/post4.webp" data-alt="Proposed post 4"><img src="img/post4.webp" alt="Proposed post 4: Caring for the smiles of your family. Book a visit." width="1080" height="1350" loading="lazy"></button>
+          <button class="post" data-zoom="img/post5.webp" data-alt="Proposed post 5"><img src="img/post5.webp" alt="Proposed post 5: Book today. New patients are welcome at Oklin Dental in Pembroke Pines" width="1080" height="1350" loading="lazy"></button>
+          <button class="post" data-zoom="img/post6.webp" data-alt="Proposed post 6"><img src="img/post6.webp" alt="Proposed post 6: Toothbrush tips" width="1080" height="1350" loading="lazy"></button>
+        </div>
+        <div class="ctl">
+          <button class="arr" id="prev" aria-label="Previous post"><svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg></button>
+          <button class="arr" id="next" aria-label="Next post"><svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg></button>
+          <div class="dots" id="dots" aria-hidden="true"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 03 MATERIAL -->
+  <section class="blk" id="material">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <div class="num" aria-hidden="true">03</div>
+        <div>
+          <h2>Your office already has plenty to show</h2>
+          <p>These are the real photos we would use to put a face and a place behind every post.</p>
+        </div>
+      </div>
+      <div class="mat">
+        <button class="ph doc rv" data-zoom="img/doctor.webp" data-alt="Dr. Richard Oklin"><img src="img/doctor.webp" alt="Dr. Richard Oklin smiling in blue scrubs" width="296" height="392" loading="lazy" style="object-position:50% 20%"><figcaption>Dr. Richard Oklin</figcaption></button>
+        <button class="ph room rv" style="--d:.1s" data-zoom="img/sala.webp" data-alt="Oklin Dental waiting room"><img src="img/sala.webp" alt="The Oklin Dental waiting room with a green accent wall and a stone feature wall" width="1400" height="1050" loading="lazy" style="object-position:50% 60%"><figcaption>Waiting room</figcaption></button>
+        <button class="ph rx rv" style="--d:.2s" data-zoom="img/consultorio.webp" data-alt="Oklin Dental treatment room"><img src="img/consultorio.webp" alt="Treatment room with a dental chair and a CEREC unit" width="1000" height="1333" loading="lazy"><figcaption>Treatment room</figcaption></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLOSE -->
+  <section class="close">
+    <div class="wrap">
+      <div class="card rv">
+        <h2>Monthly social media management, <em>so you can focus on your patients</em>.</h2>
+        <p class="lead">We take care of your Instagram: we create the content, publish it and keep your profile active.</p>
+        <div class="svc">
+          <div><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.500" cy="6.500" r=".8"/></svg><b>Your Instagram</b>Management of your profile, with your logo and your colors.</div>
+          <div><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M10 9.500v5l4.200-2.500z"/></svg><b>Content and Reels</b>Designed posts and short videos, using real photos of your office.</div>
+          <div><svg viewBox="0 0 24 24"><path d="M4 12a8 8 0 0 1 14-5.300M20 12a8 8 0 0 1-14 5.300"/><path d="M18 3v4h-4M6 21v-4h4"/></svg><b>Every month</b>An active, up-to-date profile without you having to manage it.</div>
+        </div>
+        <div class="sign">
+          <p><b>Santiago Capelli · Ticca Mkt</b>If you are interested, we are glad to set up a short call.</p>
+          <ul class="contact">
+            <li><a href="https://ticca.agency" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.600 2.800 3.900 5.800 3.900 9s-1.300 6.200-3.900 9c-2.600-2.800-3.900-5.800-3.900-9S9.400 5.800 12 3z"/></svg>ticca.agency</a></li>
+            <li><a class="alt" href="mailto:capellisantiagoemp@gmail.com"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M3.500 7.500l8.500 6 8.500-6"/></svg>capellisantiagoemp@gmail.com</a></li>
+          </ul>
+        </div>
+      </div>
+      <footer class="f">
+        <span>Proposal prepared for Oklin Dental, 6805 Pembroke Rd, Pembroke Pines, FL 33023</span>
+        <span>Tel. 954-989-6950</span>
+      </footer>
+    </div>
+  </section>
+</main>
+
+<dialog id="lb" aria-label="Enlarged image">
+  <button type="button" id="lbx" aria-label="Close">&times;</button>
+  <div class="box" id="lbbox"><img id="lbimg" alt=""></div>
+</dialog>
+
+<script>
+(function(){
+"use strict";
+var $=function(s,c){return (c||document).querySelector(s)},$$=function(s,c){return Array.prototype.slice.call((c||document).querySelectorAll(s))};
+var reduce=matchMedia("(prefers-reduced-motion: reduce)").matches;
+function safe(f,n){try{f()}catch(e){console.warn(n,e)}}
+
+safe(function(){
+  var els=$$(".rv");
+  if(!("IntersectionObserver" in window)||reduce){els.forEach(function(e){e.classList.add("in")});return}
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}})},{threshold:.06,rootMargin:"0px 0px -6% 0px"});
+  els.forEach(function(e){io.observe(e)});
+  setTimeout(function(){els.forEach(function(e){e.classList.add("in")})},3500);
+},"reveal");
+
+safe(function(){
+  var links=$$(".steps a");
+  var so=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){links.forEach(function(a){a.classList.toggle("on",a.getAttribute("href")==="#"+e.target.id)})}})},{rootMargin:"-40% 0px -55% 0px"});
+  ["hoy","propuesta","material"].forEach(function(id){so.observe(document.getElementById(id))});
+},"nav");
+
+safe(function(){
+  function fmt(v,d){return d?v.toFixed(d):String(Math.round(v))}
+  var io=new IntersectionObserver(function(es,o){es.forEach(function(en){
+    if(!en.isIntersecting)return;o.unobserve(en.target);
+    var el=en.target,to=parseFloat(el.getAttribute("data-count-to")),d=parseInt(el.getAttribute("data-decimals")||"0",10);
+    if(reduce){el.textContent=fmt(to,d);return}
+    var t0=performance.now();
+    (function tick(n){var p=Math.min(1,(n-t0)/1200),e=1-Math.pow(1-p,3);el.textContent=fmt(to*e,d);if(p<1)requestAnimationFrame(tick);else el.textContent=fmt(to,d)})(t0);
+  })},{threshold:.6});
+  $$("[data-count-to]").forEach(function(e){io.observe(e)});
+},"count");
+
+safe(function(){
+  var rail=$("#rail"),dots=$("#dots"),cards=$$(".post",rail);
+  cards.forEach(function(){dots.appendChild(document.createElement("i"))});
+  var di=$$("i",dots);di[0].classList.add("on");
+  var io=new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting){var i=cards.indexOf(en.target);di.forEach(function(d,k){d.classList.toggle("on",k===i)})}})},{root:rail,threshold:.6});
+  cards.forEach(function(c){io.observe(c)});
+  function step(dir){var w=cards[0].getBoundingClientRect().width+16;rail.scrollBy({left:dir*w,behavior:reduce?"auto":"smooth"})}
+  $("#prev").addEventListener("click",function(){step(-1)});
+  $("#next").addEventListener("click",function(){step(1)});
+  rail.addEventListener("keydown",function(e){if(e.key==="ArrowRight"){e.preventDefault();step(1)}if(e.key==="ArrowLeft"){e.preventDefault();step(-1)}});
+},"rail");
+
+safe(function(){
+  var ph=$("#phone");
+  if(ph&&!reduce&&matchMedia("(hover:hover) and (pointer:fine)").matches){
+    ph.addEventListener("pointermove",function(e){var r=ph.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;ph.style.transform="perspective(1200px) rotateY("+(x*6)+"deg) rotateX("+(-y*4)+"deg)"});
+    ph.addEventListener("pointerleave",function(){ph.style.transform=""});
+  }
+},"tilt");
+
+safe(function(){
+  var lb=$("#lb"),img=$("#lbimg"),box=$("#lbbox"),last=null;
+  function open(src,alt,from){last=from;img.src=src;img.alt=alt||"";box.scrollTop=0;if(lb.showModal)lb.showModal();else lb.setAttribute("open","")}
+  function close(){if(lb.close)lb.close();else lb.removeAttribute("open")}
+  $$("[data-zoom]").forEach(function(el){
+    el.addEventListener("click",function(){open(el.dataset.zoom,el.dataset.alt,el)});
+    el.addEventListener("keydown",function(e){if(el.tagName!=="BUTTON"&&(e.key==="Enter"||e.key===" ")){e.preventDefault();open(el.dataset.zoom,el.dataset.alt,el)}});
+  });
+  $("#lbx").addEventListener("click",close);
+  lb.addEventListener("click",function(e){if(e.target===lb||e.target===box)close()});
+  lb.addEventListener("close",function(){if(last)last.focus()});
+},"lightbox");
+})();
+</script>
+</body>
+</html>
